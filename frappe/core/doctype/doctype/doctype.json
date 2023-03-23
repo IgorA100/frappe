@@ -189,6 +189,7 @@
   },
   {
    "default": "0",
+   "depends_on": "eval:!doc.istable",
    "fieldname": "beta",
    "fieldtype": "Check",
    "label": "Beta"
@@ -472,6 +473,7 @@
   },
   {
    "default": "0",
+   "depends_on": "eval:!doc.istable",
    "description": "Tree structures are implemented using Nested Set",
    "fieldname": "is_tree",
    "fieldtype": "Check",
@@ -548,6 +550,7 @@
   },
   {
    "default": "0",
+   "depends_on": "eval:!doc.istable",
    "fieldname": "is_virtual",
    "fieldtype": "Check",
    "label": "Is Virtual"
@@ -623,6 +626,7 @@
   },
   {
    "default": "0",
+   "depends_on": "eval:!doc.istable",
    "description": "Enables Calendar and Gantt views.",
    "fieldname": "is_calendar_and_gantt",
    "fieldtype": "Check",
@@ -709,7 +713,11 @@
    "link_fieldname": "reference_doctype"
   }
  ],
+<<<<<<< HEAD
  "modified": "2022-10-12 14:13:27.315351",
+=======
+ "modified": "2023-03-23 16:15:51.067267",
+>>>>>>> 5a91ac945c (fix: doctype form - hide irrelevant fields)
  "modified_by": "Administrator",
  "module": "Core",
  "name": "DocType",
